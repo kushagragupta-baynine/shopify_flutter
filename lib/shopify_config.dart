@@ -79,7 +79,7 @@ class ShopifyConfig {
   ///
   /// [adminAccessToken] is optional, but required for some admin API calls like deleteCustomer.
   ///
-  /// [storefrontApiVersion] is optional, but defaults to "2024-07".
+  /// [storefrontApiVersion] is optional, but defaults to "2026-04".
   ///
   /// [cachePolicy] is optional, but defaults to [CachePolicy.networkOnly].
   ///
@@ -104,7 +104,7 @@ class ShopifyConfig {
     required String storefrontAccessToken,
     required String storeUrl,
     String? adminAccessToken,
-    String storefrontApiVersion = "2024-07",
+    String storefrontApiVersion = "2026-04",
     CachePolicy? cachePolicy,
     String? language,
     GraphQLCache? storefrontCache,
